@@ -7,7 +7,7 @@ namespace Klak.Ndi {
 
 static class AndroidHelper
 {
-    #if UNITY_ANDROID && !UNITY_EDITOR
+    #if UNITY_ANDROID && !UNITY_EDITOR && !UNITY_XR_OCULUS
 
     static AndroidJavaObject _nsdManager;
 
